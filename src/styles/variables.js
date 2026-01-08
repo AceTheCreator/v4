@@ -10,10 +10,14 @@ const variables = css`
     --dark-slate: #495670;
     --slate: #8892b0;
     --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
+    --lightest-slate: #a8b2d1;
+    --black: #000000;
     --white: #e6f1ff;
-    --green: #64ffda;
-    --green-tint: rgba(100, 255, 218, 0.1);
+    --pure-white: #ffffff;
+    --green: #f56e59;
+    --coral: #f56e59;
+    --green-tint: rgba(245, 110, 89, 0.1);
+    --coral-tint: rgba(245, 110, 89, 0.1);
     --pink: #f57dff;
     --blue: #57cbff;
 

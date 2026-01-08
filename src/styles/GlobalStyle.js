@@ -22,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
 
   ::selection {
     background-color: var(--lightest-navy);
-    color: var(--lightest-slate);
+    color: var(--black);
   }
 
   /* Provide basic, default focus styles.*/
@@ -53,17 +53,17 @@ const GlobalStyle = createGlobalStyle`
   /* Scrollbar Styles */
   html {
     scrollbar-width: thin;
-    scrollbar-color: var(--dark-slate) var(--navy);
+    scrollbar-color: var(--dark-slate) var(--pure-white);
   }
   ::-webkit-scrollbar {
     width: 12px;
   }
   ::-webkit-scrollbar-track {
-    background: var(--navy);
+    background: var(--pure-white);
   }
   ::-webkit-scrollbar-thumb {
     background-color: var(--dark-slate);
-    border: 3px solid var(--navy);
+    border: 3px solid var(--pure-white);
     border-radius: 10px;
   }
 
@@ -74,7 +74,7 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--navy);
+    background-color: var(--pure-white);
     color: var(--slate);
     font-family: var(--font-sans);
     font-size: var(--fz-xl);
@@ -165,7 +165,7 @@ const GlobalStyle = createGlobalStyle`
   h6 {
     margin: 0 0 10px 0;
     font-weight: 600;
-    color: var(--lightest-slate);
+    color: var(--black);
     line-height: 1.1;
   }
 

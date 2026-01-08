@@ -85,7 +85,7 @@ const StyledTableContainer = styled.div`
       &.title {
         padding-top: 15px;
         padding-right: 20px;
-        color: var(--lightest-slate);
+        color: var(--black);
         font-size: var(--fz-xl);
         font-weight: 600;
         line-height: 1.25;

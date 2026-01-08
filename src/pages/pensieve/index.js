@@ -90,7 +90,7 @@ const StyledPost = styled.li`
 
   .post__title {
     margin: 0 0 10px;
-    color: var(--lightest-slate);
+    color: var(--black);
     font-size: var(--fz-xxl);
 
     a {
@@ -211,7 +211,10 @@ export default PensievePage;
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/content/posts/" }, frontmatter: { draft: { ne: true } } }
+      filter: {
+        fileAbsolutePath: { regex: "/content/posts/" }
+        frontmatter: { draft: { ne: true } }
+      }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

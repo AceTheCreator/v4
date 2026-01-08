@@ -38,7 +38,7 @@ const StyledPostContent = styled.div`
 
   code {
     background-color: var(--lightest-navy);
-    color: var(--lightest-slate);
+    color: var(--black);
     border-radius: var(--border-radius);
     font-size: var(--fz-sm);
     padding: 0.2em 0.4em;

@@ -71,7 +71,8 @@ const StyledProject = styled.li`
     height: 100%;
     padding: 2rem 1.75rem;
     border-radius: var(--border-radius);
-    background-color: var(--light-navy);
+    background-color: var(--pure-white);
+    border: 1px solid #e0e0e0;
     transition: var(--transition);
     overflow: auto;
   }
@@ -92,7 +93,7 @@ const StyledProject = styled.li`
       display: flex;
       align-items: center;
       margin-right: -10px;
-      color: var(--light-slate);
+      color: var(--dark-slate);
 
       a {
         ${({ theme }) => theme.mixins.flexCenter};
@@ -136,7 +137,7 @@ const StyledProject = styled.li`
   }
 
   .project-description {
-    color: var(--light-slate);
+    color: var(--dark-slate);
     font-size: 17px;
 
     a {

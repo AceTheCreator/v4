@@ -65,7 +65,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer and an artisanal developer advocate specializing in building (and
+        I’m an artisanal developer advocate and software engineer specializing in building (and
         occasionally designing) exceptional digital experiences. Currently, I’m focused on turning
         contributors to life-long maintainers through opensource mentorships, and creating
         exceptional educational content at{' '}

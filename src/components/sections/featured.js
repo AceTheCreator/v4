@@ -157,13 +157,15 @@ const StyledProject = styled.li`
     z-index: 2;
     padding: 25px;
     border-radius: var(--border-radius);
-    background-color: var(--light-navy);
-    color: var(--light-slate);
+    background-color: var(--pure-white);
+    border: 1px solid #e0e0e0;
+    color: var(--dark-slate);
     font-size: var(--fz-lg);
 
     @media (max-width: 768px) {
       padding: 20px 0;
       background-color: transparent;
+      border: none;
       box-shadow: none;
 
       &:hover {
@@ -176,7 +178,7 @@ const StyledProject = styled.li`
     }
 
     strong {
-      color: var(--white);
+      color: var(--black);
       font-weight: normal;
     }
   }
@@ -192,7 +194,7 @@ const StyledProject = styled.li`
 
     li {
       margin: 0 20px 5px 0;
-      color: var(--light-slate);
+      color: var(--dark-slate);
       font-family: var(--font-mono);
       font-size: var(--fz-xs);
       white-space: nowrap;
@@ -348,7 +350,7 @@ const Featured = () => {
   return (
     <section id="projects">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some Things I’ve Built
+        Projects I've Worked On
       </h2>
 
       <StyledProjectsGrid>

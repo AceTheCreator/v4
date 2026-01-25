@@ -4,7 +4,7 @@ title: 'Web Developer'
 company: 'Lagos State'
 location: 'Lagos'
 range: 'March 2021 - September 2021'
-url: 'https://starry.com/'
+url: ''
 ---
 
 - Rebuilt a legacy website using React, Redux, and Sass, increasing engagement by 85%.

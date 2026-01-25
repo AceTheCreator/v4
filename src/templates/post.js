@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
-import kebabCase from 'lodash/kebabCase';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
@@ -29,7 +28,7 @@ const StyledPostContent = styled.div`
   p {
     margin: 1em 0;
     line-height: 1.5;
-    color: var(--light-slate);
+    color: var(--dark-slate);
   }
 
   a {
@@ -37,7 +36,7 @@ const StyledPostContent = styled.div`
   }
 
   code {
-    background-color: var(--lightest-navy);
+    background-color: #f5f5f5;
     color: var(--black);
     border-radius: var(--border-radius);
     font-size: var(--fz-sm);
@@ -61,7 +60,7 @@ const PostTemplate = ({ data, location }) => {
       <StyledPostContainer>
         <span className="breadcrumb">
           <span className="arrow">&larr;</span>
-          <Link to="/pensieve">All memories</Link>
+          <Link to="/#projects">All projects</Link>
         </span>
 
         <StyledPostHeader>
@@ -74,14 +73,17 @@ const PostTemplate = ({ data, location }) => {
                 day: 'numeric',
               })}
             </time>
-            <span>&nbsp;&mdash;&nbsp;</span>
-            {tags &&
-              tags.length > 0 &&
-              tags.map((tag, i) => (
-                <Link key={i} to={`/pensieve/tags/${kebabCase(tag)}/`} className="tag">
-                  #{tag}
-                </Link>
-              ))}
+            {tags && tags.length > 0 && (
+              <>
+                <span>&nbsp;&mdash;&nbsp;</span>
+                {tags.map((tag, i) => (
+                  <span key={i} className="tag">
+                    #{tag}
+                    {i !== tags.length - 1 && ', '}
+                  </span>
+                ))}
+              </>
+            )}
           </p>
         </StyledPostHeader>
 

@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
-import { navDelay, loaderDelay } from '@utils';
-import { usePrefersReducedMotion } from '@hooks';
+import { navDelay } from '@utils';
 import VideoModal from '@components/video-modal';
 
 const StyledHeroSection = styled.section`
@@ -45,11 +43,31 @@ const StyledHeroSection = styled.section`
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
   }
+
+  .hero-item {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: heroFadeUp 500ms var(--easing) forwards;
+  }
+
+  @keyframes heroFadeUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-item {
+      opacity: 1;
+      transform: none;
+      animation: none;
+    }
+  }
 `;
 
 const Hero = () => {
   const [isVideosOpen, setIsVideosOpen] = useState(false);
-  const prefersReducedMotion = usePrefersReducedMotion();
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Azeez Elegbede.</h2>;
@@ -75,30 +93,22 @@ const Hero = () => {
   );
 
   const items = [one, two, three, four, five];
-  const shouldAnimate = !prefersReducedMotion;
 
   return (
     <StyledHeroSection>
-      <TransitionGroup component={null}>
-        {items.map((item, i) => (
-          <CSSTransition
-            key={i}
-            classNames="fadeup"
-            timeout={shouldAnimate ? loaderDelay : 0}
-            enter={shouldAnimate}
-            exit={false}>
-            <div
-              style={{ transitionDelay: shouldAnimate ? `${navDelay + (i + 1) * 100}ms` : '0ms' }}>
-              {item}
-            </div>
-          </CSSTransition>
-        ))}
-      </TransitionGroup>
+      {items.map((item, i) => (
+        <div
+          key={i}
+          className="hero-item"
+          style={{ animationDelay: `${navDelay + (i + 1) * 100}ms` }}>
+          {item}
+        </div>
+      ))}
 
       <VideoModal
         isOpen={isVideosOpen}
         onClose={() => setIsVideosOpen(false)}
-        prefersReducedMotion={prefersReducedMotion}
+        prefersReducedMotion={false}
       />
     </StyledHeroSection>
   );

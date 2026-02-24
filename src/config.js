@@ -14,10 +14,10 @@ module.exports = {
       name: 'Twitter',
       url: 'https://x.com/_acebuild',
     },
-    {
-      name: 'Substack',
-      url: 'https://substack.com/@ae0x2',
-    },
+    // {
+    //   name: 'Substack',
+    //   url: 'https://substack.com/@ae0x2',
+    // },
   ],
 
   navLinks: [

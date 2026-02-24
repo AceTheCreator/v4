@@ -1,0 +1,59 @@
+[
+  {
+    "id": "video-asyncapi",
+    "title": "AsyncAPI Case Study: TransferGO",
+    "subtitle": "How does TransferGo use AsyncAPI in production?",
+    "url": "https://www.youtube.com/watch?v=WZ6TcYjCyMg",
+    "thumbnail": "/thumbnails/transfergo.webp"
+  },
+  {
+    "id": "video-asyncapi",
+    "title": "AsyncAPI vs OpenAPI",
+    "subtitle": "OpenAPI vs AsyncAPI — What’s the Difference?",
+    "url": "https://www.youtube.com/watch?v=28ifyPXoe-Y",
+    "thumbnail": "/thumbnails/async_open.webp"
+  },
+  {
+    "id": "video-asyncapi",
+    "title": "What is AsyncAPI?",
+    "subtitle": "A break down everything you need to know about the AsyncAPI",
+    "url": "https://www.youtube.com/watch?v=qmxKCgDD-2o",
+    "thumbnail": "/thumbnails/ws-asyncapi.webp"
+  },
+  {
+    "id": "video-asyncapi",
+    "title": "AsyncAPI and Springwolf",
+    "subtitle": "A webinar on how to kickstart your AsyncAPI journey with Springwolf",
+    "url": "https://www.youtube.com/watch?v=nNl0HUdBnmg",
+    "thumbnail": "/thumbnails/timon-webi.webp"
+  },
+  {
+    "id": "video-asyncapi",
+    "title": "One Tool, One Flow",
+    "subtitle": "A webinar on AsyncAPI's New Take on Code/Docs/Config Generation",
+    "url": "https://www.youtube.com/watch?v=Mkd7FgKOMNE",
+    "thumbnail": "/thumbnails/lukasz_webi.webp"
+  },
+  {
+    "id": "video-asyncapi",
+    "title": "AsyncAPI GSoC 2025",
+    "subtitle": "A livestream made for contributors interested in Google Summer of Code 2025",
+    "url": "https://www.youtube.com/watch?v=R7pl1F2dYLo",
+    "thumbnail": "/thumbnails/asyncapi-gsoc.webp"
+  },
+
+  {
+    "id": "video-asyncapi",
+    "title": "AsyncAPI v3 Annoucement",
+    "subtitle": "An insightful stream diving deep into the latest advancements of AsyncAPI v3!",
+    "url": "https://www.youtube.com/watch?v=prFgD14u7T0",
+    "thumbnail": "/thumbnails/fran-webi.webp"
+  },
+  {
+    "id": "video-asyncapi",
+    "title": "AsyncAPI-Powered Event Feeds",
+    "subtitle": "A deep dive livestream into the challenges and benefits of using AsyncAPI for building event-driven architectures",
+    "url": "https://www.youtube.com/watch?v=Q2cvxsUUgzA",
+    "thumbnail": "/thumbnails/giri-webi.webp"
+  }
+]

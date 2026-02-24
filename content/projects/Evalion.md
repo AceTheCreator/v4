@@ -4,6 +4,7 @@ title: 'Trigger Outbound Voice Simulations'
 github: ''
 external: 'https://docs.evalion.ai/docs/trigger-outbound-simulations'
 tech:
+  - Tutorial
   - LiveKit
   - Evalion
 showInProjects: true

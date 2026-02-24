@@ -5,119 +5,33 @@ description: 'Designing and scaling Evalion AI’s API documentation and develop
 slug: '/projects/evalion-docs'
 draft: false
 tags:
-  - Evalion AI
   - Documentation
-  - OpenAPI
-  - GitHub
+  - API Reference
   - Markdown
 
 showInProjects: false
 ---
 
+## Goal
+
+Evalion AI needed a complete documentation system for their AI conversational testing platform. The goal was to transform fragmented, incomplete references into a structured developer learning experience that supported multiple skill levels, from developers just getting started with the platform to engineers looking for detailed API references. Beyond the content itself, the project also aimed to establish a repeatable documentation workflow that the team could maintain and scale without relying on ad-hoc processes.
+
+## Problem
+
+Evalion had no documentation for their conversational testing platform. Developers coming onto the platform had nothing to reference, no API guides, no conceptual explanations, and no defined learning path to help them get up and running independently. Without any documentation infrastructure in place, the engineering team became the default support system, spending significant time answering integration questions that a well-structured documentation system would have resolved on its own. The platform was growing, and the absence of documentation was becoming a bottleneck to developer adoption.
+
+## Solution
+
+I started by designing a structured information architecture that organized the documentation around how developers actually learn, moving them from concepts to guided practice to technical reference. This gave the docs a clear hierarchy and reduced the cognitive load of navigating the platform for the first time.
+
+From there, I built a complete API reference for the Outbound Voice Simulation API and put together a Notion-based handbook outlining how the team could scale the documentation system to cover additional endpoints as the platform grew.
+
+I also audited the entire platform's UX copy, identifying areas where the in-app language was inconsistent with the terminology used in the documentation. This ensured that developers moving between the platform and the docs were working with the same language throughout, reducing confusion and creating a more cohesive developer experience.
+
+The result was a noticeably smoother onboarding experience for developers coming onto the platform, and a significant reduction in the volume of support questions the engineering team had to field as a result of having no documentation to point developers to.
+
 **Documentation Preview:** [PDF](/evalion_docs.pdf)
 
-## Overview
+## Content Type
 
-I designed and built a complete documentation system for Evalion AI’s conversational testing platform, transforming fragmented references into a structured developer learning experience.
-
-The project introduced a scalable API reference architecture, clear conceptual guides, and a guide for automated publishing workflows — reducing documentation deployment time by **90%** while significantly improving developer adoption.
-
-**Impact:**  
-**Fewer support tickets** • **Faster developer onboarding** • **100% API coverage**
-
-## The Challenge
-
-Evalion’s documentation was difficult to navigate and incomplete:
-
-- API references were scattered and partially undocumented
-- Core platform concepts lacked clear explanations
-- There was no defined learning path for new developers
-- The team had no documentation standards or publishing workflow
-
-As a result, developers struggled to integrate with the platform, and the engineering team frequently handled avoidable support questions.
-
-## My Approach
-
-### 1. Designing a Scalable Information Architecture
-
-I created a structured hierarchy that supports multiple learning styles and experience levels:
-
-- **Getting Started:** Quickstart and platform overview
-- **Key Concepts:** 9 deep-dive guides (Agents, Scenarios, Personas, Metrics, Test Flow, etc.)
-- **Tutorials:** 5 hands-on, task-based walkthroughs
-- **API Reference:** Complete technical documentation for all endpoints
-
-**Why this works:**  
-The structure moves developers from _concepts → guided practice → technical reference_, reducing cognitive load and improving retention.
-
-### 2. Building a Modular API Reference System
-
-To make the docs scalable and maintainable, I implemented a modular OpenAPI architecture:
-
-```
-docs/
-├── schemas/
-│ ├── common/ # Shared models (errors, validation, pagination)
-│ └── [domain]/ # Domain-specific schemas
-├── endpoints/ # Individual endpoint definitions
-└── master-spec.json # Generated combined spec
-```
-
-**Key benefits:**
-
-- Schemas defined once and reused with `$ref`
-- Single updates propagate across all endpoints
-- Easy scaling to 100+ endpoints
-- Cleaner collaboration with one endpoint per file
-
-This reduced documentation drift between engineering and docs.
-
-### 3. Establishing Documentation Workflows
-
-I created a complete handoff process for engineers and writers:
-
-**Handoff requirements**
-
-- Minimum OpenAPI spec
-- Feature context
-- Sample requests and test data
-
-**Quality checklist**
-
-- Validation of endpoint behavior
-- Required fields, responses, and error cases documented
-- Concept references linked
-
-**Reusable templates**
-
-- Endpoint and schema templates to enforce consistency
-
-This turned documentation from an ad-hoc task into a repeatable system.
-
-## Results & Impact
-
-### Developer Experience
-
-- **50% faster onboarding:** developers reached their first test run in under 30 minutes
-- **40% fewer support tickets:** clearer API usage reduced repetitive questions
-- **Stronger conceptual understanding:** platform fundamentals became easy to grasp
-
-### Documentation Quality
-
-- **100% API coverage:** every public endpoint fully documented
-- **Consistent structure:** standardized format across the entire docs
-- **Future-proof architecture:** modular system supports rapid platform growth
-
-### Team Efficiency
-
-- **90% faster publishing:** automated builds reduced deployment from hours to minutes
-- **Clear collaboration process:** defined roles between engineering and docs
-- **Reusable templates:** accelerated documentation for new features
-
-## Tools & Technologies
-
-**Documentation:** OpenAPI 3.1, ReadMe, Markdown, Mermaid
-
-**Collaboration:** Git, Notion
-
-**Live Documentation:** docs.evalion.ai
+**API Reference & Developer Documentation System**

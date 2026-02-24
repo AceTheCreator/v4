@@ -5,6 +5,7 @@ github: ''
 external: 'https://docs.google.com/document/d/1vmvPCBRBe4UrGL7qkzNrwPyiFt5gp6yPscvmu--RRNQ/edit?usp=sharing'
 tech:
   - Google Docs
+  - Playbook
 company: ''
 showInProjects: true
 ---

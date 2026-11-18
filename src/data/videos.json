@@ -1,6 +1,27 @@
 [
   {
     "id": "video-asyncapi",
+    "title": "What Does AI Owe Open Source?",
+    "subtitle": "A conversation with Yousaf Nabi on what AI owes the open-source ecosystem it learned from",
+    "url": "https://www.youtube.com/watch?v=ZHs4JPCr624",
+    "thumbnail": "/thumbnails/ai-open-source.webp"
+  },
+  {
+    "id": "video-asyncapi",
+    "title": "AI Agents with Arazzo",
+    "subtitle": "A webinar on making AI agents reliable event-driven API consumers with Arazzo 1.1 and AsyncAPI",
+    "url": "https://www.youtube.com/watch?v=KuuKTUfMiV0",
+    "thumbnail": "/thumbnails/arazzo-agents.webp"
+  },
+  {
+    "id": "video-asyncapi",
+    "title": "Testing Retry and DLQ Behaviour",
+    "subtitle": "A webinar on describing and testing retry and dead-letter queue behaviour from an AsyncAPI spec",
+    "url": "https://www.youtube.com/watch?v=I6z1WC6Qo2o",
+    "thumbnail": "/thumbnails/retry-dlq.webp"
+  },
+  {
+    "id": "video-asyncapi",
     "title": "AsyncAPI Case Study: TransferGO",
     "subtitle": "How does TransferGo use AsyncAPI in production?",
     "url": "https://www.youtube.com/watch?v=WZ6TcYjCyMg",
@@ -41,7 +62,6 @@
     "url": "https://www.youtube.com/watch?v=R7pl1F2dYLo",
     "thumbnail": "/thumbnails/asyncapi-gsoc.webp"
   },
-
   {
     "id": "video-asyncapi",
     "title": "AsyncAPI v3 Annoucement",

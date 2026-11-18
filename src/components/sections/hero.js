@@ -76,13 +76,12 @@ const Hero = () => {
     <>
       <p>
         I’m an Artisanal Developer Advocate and Software Engineer specializing in building (and
-        occasionally writing) exceptional digital experiences. Currently, I’m focused on turning
-        contributors to life-long maintainers through opensource mentorships, and creating
-        exceptional educational content at{' '}
-        <a href="https://asyncapi.com/" target="_blank" rel="noreferrer">
-          AsyncAPI
+        occasionally writing) exceptional digital experiences. Currently, I’m an Open Source
+        Developer Advocate at{' '}
+        <a href="https://open-elements.com/" target="_blank" rel="noreferrer">
+          Open Elements
         </a>
-        .
+        , creating developer content for ProofLayer and maintaining Record Store.
       </p>
     </>
   );

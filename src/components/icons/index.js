@@ -14,4 +14,5 @@ export { default as IconLogo } from './logo';
 export { default as IconPlayStore } from './playstore';
 export { default as IconStar } from './star';
 export { default as IconSubstack } from './substack';
+export { default as IconTikTok } from './tiktok';
 export { default as IconTwitter } from './twitter';

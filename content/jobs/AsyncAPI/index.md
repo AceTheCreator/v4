@@ -1,13 +1,13 @@
 ---
-date: '2026-01-08'
-title: 'DevRel & Program Manager'
+date: '2024-06-01'
+title: 'Developer Advocate & Program Manager'
 company: 'AsyncAPI'
 location: 'Remote'
-range: 'June 2024 - Present'
+range: 'June 2024 - December 2025'
 url: 'https://www.asyncapi.com/'
 ---
 
-- Deliver polished, production-quality educational videos that enable developers to understand, adopt, and implement AsyncAPI in real-world scenarios
-- Leading all aspect of the end-to-end mentorship initiatives that successfully onboards new maintainers and core contributors, strengthening long-term project sustainability
-- Working cross-functionally with community, marketing, and design maintainers to execute creative conference concepts from idea to production for our global audience
-- Serving as a lead Code of Conduct Committee, fostering a safe, inclusive, and welcoming environment through fair enforcement and continuous policy improvement
+- Delivered polished, production-quality educational videos and hosted developer webinars that enabled developers to understand, adopt, and implement AsyncAPI in real-world scenarios
+- Led all aspects of the end-to-end mentorship initiatives that successfully onboarded new maintainers and core contributors, strengthening long-term project sustainability
+- Worked cross-functionally with community, marketing, and design maintainers to execute creative conference concepts from idea to production for our global audience
+- Served as lead of the Code of Conduct Committee, fostering a safe, inclusive, and welcoming environment through fair enforcement and continuous policy improvement

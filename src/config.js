@@ -14,6 +14,10 @@ module.exports = {
       name: 'Twitter',
       url: 'https://x.com/_acebuild',
     },
+    {
+      name: 'TikTok',
+      url: 'https://www.tiktok.com/@a.elegbede',
+    },
     // {
     //   name: 'Substack',
     //   url: 'https://substack.com/@ae0x2',

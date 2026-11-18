@@ -205,7 +205,7 @@ const VideoModal = ({ isOpen, onClose, prefersReducedMotion = false }) => {
           <div className="modal-body">
             <VideosGrid>
               {videos.map(video => (
-                <VideoCard key={video.id}>
+                <VideoCard key={video.url}>
                   <a href={video.url} target="_blank" rel="noreferrer">
                     <div className="thumb">
                       <img src={video.thumbnail} alt={video.title} loading="lazy" />

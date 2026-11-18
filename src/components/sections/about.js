@@ -128,12 +128,15 @@ const About = () => {
   const skills = [
     'JavaScript (ES6+)',
     'TypeScript',
+    'Rust',
     'React',
     'Node.js',
     'Next.js',
     'Github Actions',
     'Netlify',
     'Docker',
+    'Kafka',
+    'AsyncAPI',
     'JSON Schema',
     'API Specifications',
   ];
@@ -159,6 +162,12 @@ const About = () => {
               conversational AI platforms, and{' '}
               <a href="https://asyncapi.com/">a huge opensource Initiave</a> facilitating technical
               programs and maintaining opensource projects.
+            </p>
+            <p>
+              Today I’m an Open Source Developer Advocate at{' '}
+              <a href="https://open-elements.com/">Open Elements</a>, where I create video content
+              for ProofLayer, maintain Record Store, and speak about our open-source work at events
+              like OCX Africa.
             </p>
 
             <p>

@@ -12,3 +12,5 @@ url: 'https://www.postman.com/'
 - Built contributor onboarding pathways that reduced friction for first-time contributors, scaling community participation across AsyncAPI projects.
 
 - Co-led Google Summer of Code program for the Open Technology team, mentoring students and establishing the AsyncAPI Mentorship Program to develop long-term maintainers.
+
+- Collaborated closely with technical writers to ensure documentation and learning materials aligned with community needs, contributing to AsyncAPI documentation and tutorials that supported developer education across Open Technologies

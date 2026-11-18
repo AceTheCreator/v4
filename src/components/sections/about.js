@@ -165,9 +165,10 @@ const About = () => {
             </p>
             <p>
               Today I’m an Open Source Developer Advocate at{' '}
-              <a href="https://open-elements.com/">Open Elements</a>, where I create video content
-              for ProofLayer, maintain Record Store, and speak about our open-source work at events
-              like OCX Africa.
+              <a href="https://open-elements.com/">Open Elements</a>, a company that maintains
+              open-source building blocks like Maven, JUnit and Log4j. I help maintain Record Store,
+              our open-source S3-compatible storage platform, and share our open-source work with
+              developers at events like OCX Africa.
             </p>
 
             <p>

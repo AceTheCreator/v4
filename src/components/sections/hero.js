@@ -75,13 +75,14 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m an Artisanal Developer Advocate and Software Engineer specializing in building (and
-        occasionally writing) exceptional digital experiences. Currently, I’m an Open Source
-        Developer Advocate at{' '}
+        I’m a Developer Advocate who builds the tools, docs and videos that help developers go from
+        “what is this?” to shipping with it. I’ve maintained open-source tools with 300k+ weekly
+        installs, mentored the next generation of maintainers, and spoken at DevFest, APIdays and
+        CNCF events. Today I’m an Open Source Developer Advocate at{' '}
         <a href="https://open-elements.com/" target="_blank" rel="noreferrer">
           Open Elements
         </a>
-        , creating developer content for ProofLayer and maintaining Record Store.
+        , helping maintain the open source that modern software runs on.
       </p>
     </>
   );
